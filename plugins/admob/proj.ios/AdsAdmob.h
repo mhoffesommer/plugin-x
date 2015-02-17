@@ -24,8 +24,7 @@
 
 #import <Foundation/Foundation.h>
 #import "InterfaceAds.h"
-#import "GADBannerView.h"
-#import "GADBannerViewDelegate.h"
+#import <GoogleMobileAds/GoogleMobileAds.h>
 
 typedef enum {
     kSizeBanner = 1,
@@ -33,6 +32,8 @@ typedef enum {
     kSizeIABBanner,
     kSizeIABLeaderboard,
     kSizeSkyscraper,
+    kSizeSmartBannerPortrait,
+    kSizeSmartBannerLandscape,
 } AdmobSizeEnum;
 
 typedef enum {

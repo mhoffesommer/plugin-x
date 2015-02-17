@@ -148,6 +148,12 @@
         case kSizeSkyscraper:
             size = kGADAdSizeSkyscraper;
             break;
+        case kSizeSmartBannerPortrait:
+            size = kGADAdSizeSmartBannerPortrait;
+            break;
+        case kSizeSmartBannerLandscape:
+            size = kGADAdSizeSmartBannerLandscape;
+            break;
         default:
             break;
     }
@@ -174,7 +180,6 @@
 {
     if (nil == self.testDeviceIDs) {
         self.testDeviceIDs = [[NSMutableArray alloc] init];
-        [self.testDeviceIDs addObject:GAD_SIMULATOR_ID];
     }
     [self.testDeviceIDs addObject:deviceID];
 }
