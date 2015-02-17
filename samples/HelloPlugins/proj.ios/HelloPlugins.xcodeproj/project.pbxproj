@@ -79,6 +79,62 @@
 			remoteGlobalIDString = A07A4C241783777C0073F6A7;
 			remoteInfo = "cocos2dx iOS";
 		};
+		EF17A6B91A8ED9AD000BC03C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EF17A6B41A8ED9AD000BC03C /* PluginFacebook.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = BA34A75D195AA8C7002D0ECD;
+			remoteInfo = PluginFacebook;
+		};
+		EF17A6BF1A8ED9CC000BC03C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EF17A6BB1A8ED9CC000BC03C /* PluginFacebookAds.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 2018A07F19ADE5AF003D3C33;
+			remoteInfo = PluginFacebookAds;
+		};
+		EF17A6C51A8ED9E5000BC03C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EF17A6C11A8ED9E4000BC03C /* PluginAdmob.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = FADC44A7176EA82000B2D5ED;
+			remoteInfo = PluginAdmob;
+		};
+		EF17A6CB1A8ED9FD000BC03C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EF17A6C71A8ED9FD000BC03C /* PluginFlurry.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = FA09A372168AFD41008C1C7B;
+			remoteInfo = PluginFlurry;
+		};
+		EF17A6D11A8EDA15000BC03C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EF17A6CD1A8EDA15000BC03C /* PluginProtocol.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = FA09A321168ADBC2008C1C7B;
+			remoteInfo = PluginProtocol;
+		};
+		EF17A6D71A8EDA2D000BC03C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EF17A6D31A8EDA2D000BC03C /* PluginTwitter.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = FACAD8881762C1B500D75ADE;
+			remoteInfo = PluginTwitter;
+		};
+		EF17A6DD1A8EDA39000BC03C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EF17A6D91A8EDA39000BC03C /* PluginUmeng.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = FA09A301168ADAEC008C1C7B;
+			remoteInfo = PluginUmeng;
+		};
+		EF17A6E31A8EDA4B000BC03C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EF17A6DF1A8EDA4A000BC03C /* PluginWeibo.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = FAE27530175D9D2900F5DA8E;
+			remoteInfo = PluginWeibo;
+		};
 		FA848843182B3AE400858BDD /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = FA848830182B3AE300858BDD /* cocos2d_libs.xcodeproj */;
@@ -138,6 +194,14 @@
 		D4EF949D15BD2D9600D803EB /* Icon-72.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon-72.png"; path = "../proj.ios/Icon-72.png"; sourceTree = "<group>"; };
 		D4EF949F15BD2D9800D803EB /* Icon-144.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon-144.png"; path = "../proj.ios/Icon-144.png"; sourceTree = "<group>"; };
 		D4F9F37B12E54555005CA6D2 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = SOURCE_ROOT; };
+		EF17A6B41A8ED9AD000BC03C /* PluginFacebook.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = PluginFacebook.xcodeproj; path = ../../../plugins/facebook/proj.ios/PluginFacebook.xcodeproj; sourceTree = "<group>"; };
+		EF17A6BB1A8ED9CC000BC03C /* PluginFacebookAds.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = PluginFacebookAds.xcodeproj; path = ../../../plugins/facebookads/proj.ios/PluginFacebookAds.xcodeproj; sourceTree = "<group>"; };
+		EF17A6C11A8ED9E4000BC03C /* PluginAdmob.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = PluginAdmob.xcodeproj; path = ../../../plugins/admob/proj.ios/PluginAdmob.xcodeproj; sourceTree = "<group>"; };
+		EF17A6C71A8ED9FD000BC03C /* PluginFlurry.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = PluginFlurry.xcodeproj; path = ../../../plugins/flurry/proj.ios/PluginFlurry.xcodeproj; sourceTree = "<group>"; };
+		EF17A6CD1A8EDA15000BC03C /* PluginProtocol.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = PluginProtocol.xcodeproj; path = ../../../protocols/proj.ios/PluginProtocol.xcodeproj; sourceTree = "<group>"; };
+		EF17A6D31A8EDA2D000BC03C /* PluginTwitter.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = PluginTwitter.xcodeproj; path = ../../../plugins/twitter/proj.ios/PluginTwitter.xcodeproj; sourceTree = "<group>"; };
+		EF17A6D91A8EDA39000BC03C /* PluginUmeng.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = PluginUmeng.xcodeproj; path = ../../../plugins/umeng/proj.ios/PluginUmeng.xcodeproj; sourceTree = "<group>"; };
+		EF17A6DF1A8EDA4A000BC03C /* PluginWeibo.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = PluginWeibo.xcodeproj; path = ../../../plugins/weibo/proj.ios/PluginWeibo.xcodeproj; sourceTree = "<group>"; };
 		FA3D264817867219009B234A /* MyIAPOLManager.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = MyIAPOLManager.cpp; sourceTree = "<group>"; };
 		FA3D264917867219009B234A /* MyIAPOLManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyIAPOLManager.h; sourceTree = "<group>"; };
 		FA3D264A17867219009B234A /* TestIAPOnlineScene.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = TestIAPOnlineScene.cpp; sourceTree = "<group>"; };
@@ -291,6 +355,14 @@
 		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
 			isa = PBXGroup;
 			children = (
+				EF17A6DF1A8EDA4A000BC03C /* PluginWeibo.xcodeproj */,
+				EF17A6D91A8EDA39000BC03C /* PluginUmeng.xcodeproj */,
+				EF17A6D31A8EDA2D000BC03C /* PluginTwitter.xcodeproj */,
+				EF17A6CD1A8EDA15000BC03C /* PluginProtocol.xcodeproj */,
+				EF17A6C71A8ED9FD000BC03C /* PluginFlurry.xcodeproj */,
+				EF17A6C11A8ED9E4000BC03C /* PluginAdmob.xcodeproj */,
+				EF17A6BB1A8ED9CC000BC03C /* PluginFacebookAds.xcodeproj */,
+				EF17A6B41A8ED9AD000BC03C /* PluginFacebook.xcodeproj */,
 				FA848830182B3AE300858BDD /* cocos2d_libs.xcodeproj */,
 				15AA9C4015B7EC450033D6C2 /* Classes */,
 				29B97323FDCFA39411CA2CEA /* Frameworks */,
@@ -356,6 +428,70 @@
 			);
 			name = Resources;
 			path = ../Resources;
+			sourceTree = "<group>";
+		};
+		EF17A6B51A8ED9AD000BC03C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EF17A6BA1A8ED9AD000BC03C /* libPluginFacebook.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EF17A6BC1A8ED9CC000BC03C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EF17A6C01A8ED9CC000BC03C /* libPluginFacebookAds.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EF17A6C21A8ED9E4000BC03C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EF17A6C61A8ED9E5000BC03C /* libPluginAdmob.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EF17A6C81A8ED9FD000BC03C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EF17A6CC1A8ED9FD000BC03C /* libPluginFlurry.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EF17A6CE1A8EDA15000BC03C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EF17A6D21A8EDA15000BC03C /* libPluginProtocol.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EF17A6D41A8EDA2D000BC03C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EF17A6D81A8EDA2D000BC03C /* libPluginTwitter.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EF17A6DA1A8EDA39000BC03C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EF17A6DE1A8EDA39000BC03C /* libPluginUmeng.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EF17A6E01A8EDA4A000BC03C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EF17A6E41A8EDA4B000BC03C /* libPluginWeibo.a */,
+			);
+			name = Products;
 			sourceTree = "<group>";
 		};
 		FA3D264717867219009B234A /* TestIAPOnline */ = {
@@ -477,7 +613,7 @@
 				LastUpgradeCheck = 0510;
 				TargetAttributes = {
 					1D6058900D05DD3D006BFB54 = {
-						DevelopmentTeam = NQ596S94Q5;
+						DevelopmentTeam = XM72M25W3W;
 					};
 				};
 			};
@@ -498,6 +634,38 @@
 					ProductGroup = FA848831182B3AE300858BDD /* Products */;
 					ProjectRef = FA848830182B3AE300858BDD /* cocos2d_libs.xcodeproj */;
 				},
+				{
+					ProductGroup = EF17A6C21A8ED9E4000BC03C /* Products */;
+					ProjectRef = EF17A6C11A8ED9E4000BC03C /* PluginAdmob.xcodeproj */;
+				},
+				{
+					ProductGroup = EF17A6B51A8ED9AD000BC03C /* Products */;
+					ProjectRef = EF17A6B41A8ED9AD000BC03C /* PluginFacebook.xcodeproj */;
+				},
+				{
+					ProductGroup = EF17A6BC1A8ED9CC000BC03C /* Products */;
+					ProjectRef = EF17A6BB1A8ED9CC000BC03C /* PluginFacebookAds.xcodeproj */;
+				},
+				{
+					ProductGroup = EF17A6C81A8ED9FD000BC03C /* Products */;
+					ProjectRef = EF17A6C71A8ED9FD000BC03C /* PluginFlurry.xcodeproj */;
+				},
+				{
+					ProductGroup = EF17A6CE1A8EDA15000BC03C /* Products */;
+					ProjectRef = EF17A6CD1A8EDA15000BC03C /* PluginProtocol.xcodeproj */;
+				},
+				{
+					ProductGroup = EF17A6D41A8EDA2D000BC03C /* Products */;
+					ProjectRef = EF17A6D31A8EDA2D000BC03C /* PluginTwitter.xcodeproj */;
+				},
+				{
+					ProductGroup = EF17A6DA1A8EDA39000BC03C /* Products */;
+					ProjectRef = EF17A6D91A8EDA39000BC03C /* PluginUmeng.xcodeproj */;
+				},
+				{
+					ProductGroup = EF17A6E01A8EDA4A000BC03C /* Products */;
+					ProjectRef = EF17A6DF1A8EDA4A000BC03C /* PluginWeibo.xcodeproj */;
+				},
 			);
 			projectRoot = "";
 			targets = (
@@ -507,6 +675,62 @@
 /* End PBXProject section */
 
 /* Begin PBXReferenceProxy section */
+		EF17A6BA1A8ED9AD000BC03C /* libPluginFacebook.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libPluginFacebook.a;
+			remoteRef = EF17A6B91A8ED9AD000BC03C /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		EF17A6C01A8ED9CC000BC03C /* libPluginFacebookAds.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libPluginFacebookAds.a;
+			remoteRef = EF17A6BF1A8ED9CC000BC03C /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		EF17A6C61A8ED9E5000BC03C /* libPluginAdmob.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libPluginAdmob.a;
+			remoteRef = EF17A6C51A8ED9E5000BC03C /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		EF17A6CC1A8ED9FD000BC03C /* libPluginFlurry.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libPluginFlurry.a;
+			remoteRef = EF17A6CB1A8ED9FD000BC03C /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		EF17A6D21A8EDA15000BC03C /* libPluginProtocol.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libPluginProtocol.a;
+			remoteRef = EF17A6D11A8EDA15000BC03C /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		EF17A6D81A8EDA2D000BC03C /* libPluginTwitter.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libPluginTwitter.a;
+			remoteRef = EF17A6D71A8EDA2D000BC03C /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		EF17A6DE1A8EDA39000BC03C /* libPluginUmeng.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libPluginUmeng.a;
+			remoteRef = EF17A6DD1A8EDA39000BC03C /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		EF17A6E41A8EDA4B000BC03C /* libPluginWeibo.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libPluginWeibo.a;
+			remoteRef = EF17A6E31A8EDA4B000BC03C /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
 		FA848844182B3AE400858BDD /* libcocos2d Mac.a */ = {
 			isa = PBXReferenceProxy;
 			fileType = archive.ar;
