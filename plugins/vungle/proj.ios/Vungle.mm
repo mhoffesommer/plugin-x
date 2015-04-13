@@ -58,6 +58,10 @@ static NSString* kVERSION = @"0.1";
 		[sdk performSelector:@selector(setPluginName:version:) withObject:@"cocos2dx" withObject:kVERSION];
 		[sdk startWithAppId:[devInfo objectForKey:@"VungleID"]];
 		[sdk setDelegate:self];
+        
+        if ([sdk isCachedAdAvailable]) {
+            [AdsWrapper onAdsResult:self withRet:kAdsReceived withMsg:@"OK"];
+        }
 	}
 }
 
