@@ -54,6 +54,7 @@ public class AdsVungle implements InterfaceAds, EventListener, PluginListener {
 			mPublishID = devInfo.get("VungleID");
 			vunglePub.init(mContext, mPublishID);
 			LogD("init AppInfo : " + mPublishID);
+			vunglePub.setEventListeners(this);
 		} catch (Exception e) {
 			LogE("initAppInfo, The format of appInfo is wrong", e);
 		}
@@ -102,6 +103,7 @@ public class AdsVungle implements InterfaceAds, EventListener, PluginListener {
 
 	@Override
 	public void onAdEnd(boolean arg0) {
+		LogD("onAdEnd "+arg0);
 		AdsWrapper.onAdsResult(this, AdsWrapper.RESULT_CODE_AdsDismissed, (videoViewed ? "1" : "0") + "," + (arg0 ? "1" : "0"));
 	}
 
@@ -115,13 +117,10 @@ public class AdsVungle implements InterfaceAds, EventListener, PluginListener {
 		AdsWrapper.onAdsResult(this, AdsWrapper.RESULT_CODE_UnknownError, "Ads Unavailable");
 	}
 
-	public void onCachedAdAvailable() {
-		AdsWrapper.onAdsResult(this, AdsWrapper.RESULT_CODE_AdsReceived, "OK");
-	}
-
 	@Override
 	public void onVideoView(boolean arg0, int arg1, int arg2) {
 		videoViewed = arg0;
+		LogD("onVideoView "+videoViewed);
 	}
 
 	@Override
@@ -146,8 +145,9 @@ public class AdsVungle implements InterfaceAds, EventListener, PluginListener {
 
 	@Override
 	public void onAdPlayableChanged(boolean arg0) {
-		// TODO Auto-generated method stub
-		
+		LogD("onAdPlayableChanged "+arg0);
+		if (arg0)
+			AdsWrapper.onAdsResult(this, AdsWrapper.RESULT_CODE_AdsReceived, "OK");
 	}
 
 }
